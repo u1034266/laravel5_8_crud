@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('dashboard');
+=======
+    return view('welcome');
+>>>>>>> 349d98805e3dae2e465bdac2815f1323d43f05ca
 });
 
 Auth::routes();
