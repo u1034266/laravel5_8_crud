@@ -12,13 +12,15 @@
 */
 
 Route::get('/', function () {
-<<<<<<< HEAD
     return view('dashboard');
-=======
-    return view('welcome');
->>>>>>> 349d98805e3dae2e465bdac2815f1323d43f05ca
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// CRUD Routes
+Route::post('/addPerson', 'PersonController@addPerson');
+Route::post('/getPersons', 'PersonController@getPersons');
+Route::post('/deletePerson/{id}', 'PersonController@deletePerson');
+Route::post('/editPerson/{id}', 'PersonController@editPerson');
