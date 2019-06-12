@@ -1,2 +1,2 @@
-# laravel5_8_crud
-Laravel 5.8 CRUD example
+# Description
+Simple free-to-use Laravel 5.8 CRUD example. 
