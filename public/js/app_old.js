@@ -1,0 +1,1 @@
+// File move to reso resources/js/app.js
